@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Engine", "Engine\Engine.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCode", "GameCode\GameCode.csproj", "{63489006-D63D-46CF-B877-45DC2E5F6F83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{69656915-CB9D-4A84-82CD-AA7BEAC01B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platforms.OpenGL", "Platforms\Platforms.OpenGL\Platforms.OpenGL.csproj", "{76DBA524-BD21-45CA-B89D-B5731CFA3DE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63489006-D63D-46CF-B877-45DC2E5F6F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63489006-D63D-46CF-B877-45DC2E5F6F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63489006-D63D-46CF-B877-45DC2E5F6F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63489006-D63D-46CF-B877-45DC2E5F6F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DBA524-BD21-45CA-B89D-B5731CFA3DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DBA524-BD21-45CA-B89D-B5731CFA3DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DBA524-BD21-45CA-B89D-B5731CFA3DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DBA524-BD21-45CA-B89D-B5731CFA3DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76DBA524-BD21-45CA-B89D-B5731CFA3DE2} = {69656915-CB9D-4A84-82CD-AA7BEAC01B52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3CA4971-3456-4AC4-BAD6-795B7FFA8468}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Engine\Engine.projitems*{63489006-d63d-46cf-b877-45dc2e5f6f83}*SharedItemsImports = 5
+		Engine\Engine.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
