@@ -12,7 +12,7 @@ namespace GameCode
         public override void Load()
         {
             var island = new IslandGenerator();
-            island.Generate(this, new Vector2(10, 10));
+            island.Generate(this, new Point(10, 10));
         }
         
         public override void Update(float dt)
